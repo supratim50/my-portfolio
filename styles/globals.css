@@ -20,6 +20,7 @@ a {
 
 :root {
   --primary-color: #ececf1;
+  --secondary-color: #3a3a3a;
 }
 
 /* ================== HEADING =================== */
@@ -33,4 +34,12 @@ a {
 /* ================== TEXT COLOR ===================== */
 .primary-text {
   color: var(--primary-color) !important;
+}
+
+/* ===================== BACKGROUND COLOR ================== */
+.bg-primary {
+  background-color: var(--primary-color) !important;
+}
+.bg-secondary {
+  background-color: var(--secondary-color) !important;
 }
